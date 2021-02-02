@@ -1,0 +1,92 @@
+html {
+
+background: #c4d79b;
+
+
+}
+
+.wrapper {
+
+margin: 0 auto;
+width: 1000px; 
+height: 775px;
+
+}
+
+video{
+width: 50% ;
+height:75% ;
+
+
+
+}
+
+h1 {
+font-family: 'Abril Fatface', cursive;
+font-weight: normal;
+color: pink;
+background: darkgreen;	
+
+}
+
+p {
+font-family: 'Abril Fatface', cursive;
+color: darkblue;
+background: pink;
+position: absolute;
+left:30px;
+top: 150px;
+font-size: 20px;
+
+}
+
+h4 {
+font-family: 'Abril Fatface', cursive;
+color: darkblue;
+background: pink;
+position: absolute;
+left: 30px;
+top: 650px;
+font-size: 20px;
+}
+
+
+h2 {
+font-family: 'Abril Fatface', cursive;
+color: darkblue;
+background: pink;
+position: absolute;
+left:30px;
+top: 795px;
+font-size: 20px;
+}
+
+h5 {
+font-family: 'Abril Fatface', cursive;
+color: darkblue;
+background: pink;
+position: absolute;
+left: 30px;
+top: 1420px;
+font-size: 20px;
+}
+
+h3 {
+font-family: 'Abril Fatface', cursive;
+color: darkblue;
+background: pink;
+position: absolute;
+left: 30px;
+top: 1570px;
+font-size: 20px;
+}
+
+h6 {
+font-family: 'Abril Fatface', cursive;
+color: darkblue;
+background: pink;
+position: absolute;
+left: 30px;
+top: 2190px;
+font-size: 20px;
+}
