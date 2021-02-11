@@ -7,15 +7,13 @@ background: lightpink;
 
 h1 {
 color: darkblue;
+background: pink;
 font-weight: normal;
-background: hotpink;	
-align-content: center;
 }
 h2 {
-
+background: pink;
 font-weight: normal;
 color: hotpink;
-align-content: center;
 }
 
 p {
