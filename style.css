@@ -1,21 +1,26 @@
 html {
 
-background: hotpink;
+background: lightpink;
 
 
 }
 
 h1 {
-
-font-family: "comic sans ms";
+color: darkblue;
 font-weight: normal;
-color: pink;
-background: darkblue;	
+background: hotpink;	
+align-content: center;
+}
+h2 {
+
+font-weight: normal;
+color: hotpink;
+align-content: center;
 }
 
 p {
 
-color: darkblue;
+color: hotpink;
 background: pink;
 
 }
