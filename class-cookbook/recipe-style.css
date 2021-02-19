@@ -29,7 +29,14 @@ font-family: "Helvetica, sans-serif";
 color: purple;	
 }
 
-#ingredients{
+h2 {
+
+font-family: "Tahoma, sans-serif";
+font-weight: bold;
+color: darkblue;
+letter-spacing: 30px
+
+.ingredients {
 font-size: 20px;
 text-transform: capitalize;
 letter-spacing: 3px
