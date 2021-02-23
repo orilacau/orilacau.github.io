@@ -1,8 +1,8 @@
 html {
-background: white;
+background: #93B993;
 }
 body{
-	background: white;
+	background: #93B993;
 	padding:20px;
 	padding-top: 0px;
 	font-size: 16px;
@@ -14,7 +14,7 @@ body{
 
 p {
 
-color: black;
+color: #F523F5;
 font-weight: bold;
 font-family: sans-serif, bold;
 font-size: 8rem;
@@ -30,7 +30,7 @@ font-size: 8rem;
 	p {
 
 		font-size: 10em;
-		color: black;
+		color: #F523F5;
 		padding: 20px;
 		padding-top: 0px;
 	}
