@@ -13,7 +13,7 @@ body{
 
 p {
 
-color: darkgrey;
+color: #707070;
 font-size: 3px;
 font-family: serif;
 
@@ -28,7 +28,7 @@ font-family: serif;
 	p {
 
 		font-size: 3em;
-		color: black;
+		color: #707070;
 		padding:200px;
 	padding-top: 10px;
 	}
