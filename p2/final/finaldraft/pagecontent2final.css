@@ -9,7 +9,7 @@ color: #F523F5;
 	z-index:-1;
 	position: fixed;
 	left: 512px;
-	top: 0;	
+	top: -300px;	
 }
 
 body{
@@ -75,8 +75,8 @@ font-family: serif;
 	font-family: sans-serif;
 	line-height: 0;
 	z-index:-1;
-	left: 384px;
-	top: 0;	
+	left: 584px;
+	top: -370px;	
 	}
 }
 
