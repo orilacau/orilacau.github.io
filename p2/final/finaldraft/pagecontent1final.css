@@ -35,7 +35,7 @@ z-index: 2;
 .container {
 }
 
-/*.top {
+.top {
 
 	display: flex;
 	flex-direction: rows;
