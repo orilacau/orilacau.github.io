@@ -71,7 +71,7 @@ text-decoration: none;
 
 
 @media screen and (min-width: 768px) {
-	h3 {
+	a {
 
 
 		color: #F523F5;
@@ -84,7 +84,7 @@ font-size: 40px;
 }
 
 @media screen and (max-width: 1024px) {
-	h3 {
+	a {
 		
 		color: #F523F5;
 font-family: sans-serif;
