@@ -33,22 +33,19 @@ z-index: 2;
 }
 
 .container {
+
 }
 
 .top {
-
-	display: flex;
-	flex-direction: rows;
 	position: absolute;
-	top-position: 10px;
+	top: 0px;
+	left: 30px;
 	text-transform: uppercase;
-	color: black;
-	font-size: 1rem;
 	font-family: sans-serif;
 
 }*/
 
-/*@media screen and (min-width: 768px) {
+*@media screen and (min-width: 768px) {
 	p {
 
 		font-size: 10em;
