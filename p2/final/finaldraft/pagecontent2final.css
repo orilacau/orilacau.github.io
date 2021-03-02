@@ -1,0 +1,89 @@
+html {
+background: none;
+}
+.mark{
+color: #F523F5;
+	font-size: 700px;
+	font-family: sans-serif;
+	line-height: 0;
+	z-index:-1;
+	position: fixed;
+	left: 512px;
+	top: 0;	
+}
+
+body{
+	background: none;
+	padding:150px;
+	padding-top: 10px;
+	font-size: 3px;
+
+}
+
+.mark{
+color: #F523F5;
+	font-size: 700px;
+	font-family: sans-serif;
+	line-height: 0;
+	z-index:-1;
+	position: fixed;
+	left: 612px;
+	top: -300px;	
+}
+
+
+
+p {
+
+color: black;
+font-size: 3px;
+font-family: serif;
+
+}
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.top {
+
+	display: flex;
+	flex-direction: rows;
+	position: absolute;
+	top-position: 10px;
+	text-transform: uppercase;
+	color: black;
+	font-size: 1rem;
+	font-family: sans-serif;
+
+}
+
+@media screen and (min-width: 768px) {
+	p {
+
+		font-size: 3em;
+		color: black;
+		padding:70px;
+	padding-top: 10px;
+	}
+
+
+	@media screen and (min-width: 768px) {
+	.mark {
+		font-size: 700px;
+	font-family: sans-serif;
+	line-height: 0;
+	z-index:-1;
+	left: 384px;
+	top: 0;	
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	p {
+		font-size: 4em;
+		
+	}
+}
