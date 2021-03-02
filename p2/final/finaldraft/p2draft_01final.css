@@ -70,13 +70,18 @@ text-decoration: none;
 
 
 
-@media screen and (min-width: 768px) {
-	a {
+@media screen and (min-width: 375px) {
+	 {
 
-
-		color: #F523F5;
-font-family: sans-serif;
-font-size: 40px;
+padding: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: #707070;
+font-family: sans-serif;	
+text-decoration: none;
+font-size: 100px;
 	
 	}
 
@@ -84,11 +89,17 @@ font-size: 40px;
 }
 
 @media screen and (max-width: 1024px) {
-	a {
+	 {
 		
-		color: #F523F5;
-font-family: sans-serif;
-font-size: 40px;
+		padding: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: #707070;
+font-family: sans-serif;	
+text-decoration: none;
+font-size: 300px;
 		
 	}
 }
