@@ -1,0 +1,58 @@
+html {
+background: pink;
+}
+
+body{
+}
+
+calendar-width: 100%;
+day-box-width: 100%/7;
+	.calandar {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 5em;
+		padding: 5em;
+
+	}
+	.month-name {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap; 
+		flex-grow: 1;
+		justify-content: space-between;
+		margin: 5em;
+		padding: 5em;
+
+	}
+
+	.days-in-week {
+		display: flex;
+		flex-direction: row;
+		flex-grow: 7;
+		flex-wrap: wrap;
+
+	}
+
+
+
+
+	.calendar {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		order: 7;
+		}
+	}
+	.days-in-week {
+		margin-bottom: 1em;
+		.day-box {
+			padding: 1em;
+		}
+	}
+	.days-in-month {
+		.day-box {
+			padding: 1em;
+		}
+	}
+}

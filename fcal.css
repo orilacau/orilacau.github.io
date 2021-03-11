@@ -1,0 +1,45 @@
+html {
+background: pink;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+.week {
+  display: flex;
+  height: 100px;
+  width: 1000px;
+}
+
+.day {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.week:first-of-type .day:first-of-type {
+  margin-left: 42.85714%;
+}
+
+.week:last-of-type .day:last-of-type {
+  margin-right: 14.285%;
+}
+
+
+.month {
+  max-width: 560px;
+  margin: 20px auto;
+}
+
+
+
+.day {
+  color: blue;
+  padding: 5px;
+  background-color: lightblue ;
+  box-shadow: 
+    -1px -1px #F9A440, 
+    inset -1px -1px 0 0 #F9A440;
+}

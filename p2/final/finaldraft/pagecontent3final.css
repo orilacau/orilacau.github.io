@@ -52,10 +52,21 @@ color: #F523F5;
 }
 
 @media screen and (min-width: 768px) {
-	p {
+	p, a {
 
 		font-size: 3em;
 		color: black;
+	}
+	h1 {
+		color: #F523F5;
+	font-size: 300px;
+	font-family: sans-serif;
+	line-height: 0;
+	z-index:-1;
+	position: fixed;
+	left: 250px;
+	top: 0;	
+
 	}
 
 	}

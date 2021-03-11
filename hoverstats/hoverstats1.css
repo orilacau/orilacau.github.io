@@ -1,0 +1,19 @@
+html {
+	background: lightpink;
+}
+
+
+p {
+	padding: 30px;
+	color: hotpink;
+	background: pink;
+	font-size: 95px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+
+
+}
+
+p:hover {
+	color: darkblue;
+}
