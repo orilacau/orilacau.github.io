@@ -1,0 +1,44 @@
+html {
+background:  #93B993;
+}
+body{
+	background: #93B993;
+	padding:20px;
+	font-size: 10px;
+	line-height: 2rem;
+
+}
+
+
+
+
+p {
+
+color: #F523F5;
+font-size: 18px;
+line-height: 0.5rem;
+font-family: monospace;
+
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+	p {
+
+		font-size: 3em;
+		color: #F523F5;
+	}
+
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	p {
+		font-size: 4em;
+		
+	}
+}

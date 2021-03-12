@@ -22,3 +22,7 @@ color: hotpink;
 background: pink;
 
 }
+a:hover {
+	color: darkorange;
+	font-weight: bold;
+}

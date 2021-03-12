@@ -1,0 +1,27 @@
+html {
+	background: lightpink;
+}
+
+
+p {
+	padding: 30px;
+	color: darkblue;
+	transform: rotate3d(0, 1, 0, 360deg);
+	font-family: monospace;
+	font-size: 30px;
+	filter: blur(2px);
+	justify-content: center;
+}
+
+p:hover {
+	padding: 30px;
+	color: hotpink;
+	font-size: 95px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	filter: none;
+
+
+}
+
