@@ -1,17 +1,23 @@
-html {
-	background: lightpink;
+html, body {
+	background-color: #f9c5d1;
+	background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
 }
 
 h1 {
 	color: darkblue;
-	background: pink;
-	font-weight: normal;
+	font-weight: bold;
+	font-size: 55px;
+	font-family: sans-serif; 
+	text-transform: uppercase;
+	letter-spacing: 10px;
 }
 
 h2 {
-	background: pink;
 	font-weight: normal;
-	color: hotpink;
+	color: pink;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
 }
 
 p {
@@ -20,6 +26,25 @@ p {
 }
 
 a:hover {
-	color: darkorange;
+	background: darkblue;
+	color: lightpink;
 	font-weight: bold;
+}
+
+
+.butterfly {
+	resize: 80%;
+	position: absolute;
+	right: 500px;
+	top: 270px;
+	max-width: 90px;
+	max-height: 80px;
+}
+
+.butterfly2 {
+	position: absolute;
+	top: 30px;
+	right: 800px;
+	max-width: 60px;
+	max-height: 50px;
 }
