@@ -1,27 +1,24 @@
 html {
-
-background: lightpink;
-
-
+	background: lightpink;
 }
 
 h1 {
-color: darkblue;
-background: pink;
-font-weight: normal;
+	color: darkblue;
+	background: pink;
+	font-weight: normal;
 }
+
 h2 {
-background: pink;
-font-weight: normal;
-color: hotpink;
+	background: pink;
+	font-weight: normal;
+	color: hotpink;
 }
 
 p {
-
-color: hotpink;
-background: pink;
-
+	color: hotpink;
+	background: pink;
 }
+
 a:hover {
 	color: darkorange;
 	font-weight: bold;

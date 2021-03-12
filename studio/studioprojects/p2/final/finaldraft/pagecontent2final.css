@@ -1,8 +1,9 @@
 html {
-background: none;
+	background: none;
 }
+
 .mark{
-color: #F523F5;
+	color: #F523F5;
 	font-size: 700px;
 	font-family: sans-serif;
 	line-height: 0;
@@ -17,29 +18,21 @@ body{
 	padding:150px;
 	padding-top: 10px;
 	font-size: 3px;
-
 }
 
 .mark{
-color: #F523F5;
+	color: #F523F5;
 	font-size: 700px;
 	font-family: sans-serif;
 	line-height: 0;
-	z-index:-1;
-	
-		
+	z-index:-1;	
 }
-
-
 
 p {
-
-color: black;
-font-size: 3px;
-font-family: serif;
-
+	color: black;
+	font-size: 3px;
+	font-family: serif;
 }
-
 
 .container {
 	display: flex;
@@ -56,27 +49,25 @@ font-family: serif;
 	color: black;
 	font-size: 1rem;
 	font-family: sans-serif;
-
 }
 
 @media screen and (min-width: 768px) {
 	p {
-
 		font-size: 3em;
 		color: black;
 		padding:70px;
-	padding-top: 10px;
+		padding-top: 10px;
 	}
 
 
-	@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	.mark {
 		font-size: 700px;
-	font-family: sans-serif;
-	line-height: 0;
-	z-index:-1;
-	left: 584px;
-	top: -370px;	
+		font-family: sans-serif;
+		line-height: 0;
+		z-index:-1;
+		left: 584px;
+		top: -370px;	
 	}
 }
 

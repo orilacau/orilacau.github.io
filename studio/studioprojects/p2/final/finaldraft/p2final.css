@@ -1,21 +1,15 @@
 html {
-
-background: hotpink;
-
-
+	background: hotpink;
 }
 
 h1 {
-
-font-family: "comic sans ms";
-font-weight: normal;
-color: pink;
-background: darkblue;	
+	font-family: "comic sans ms";
+	font-weight: normal;
+	color: pink;
+	background: darkblue;	
 }
 
 p {
-
-color: darkblue;
-background: pink;
-
+	color: darkblue;
+	background: pink;
 }

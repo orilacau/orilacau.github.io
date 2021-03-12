@@ -2,16 +2,13 @@ html {
 	background: lightpink;
 }
 
-
 p {
-
 	padding: 30px;
 	color: hotpink;
 	font-size: 35px;
 	font-family: sans-serif;
 	text-transform: uppercase;
 }
-
 
 p:hover {
 	font-size: 100px;

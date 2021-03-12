@@ -1,23 +1,17 @@
 html {
-background: none;
+	background: none;
 }
 body{
 	background: none;
 	font-size: 16px;
 	padding: 150px;
 	line-height: 70px;
-
 }
 
-
-
-
 p {
-
-color: black;
-font-size: 1rem;
-font-family: serif;
-
+	color: black;
+	font-size: 1rem;
+	font-family: serif;
 }
 
 .container {
@@ -27,7 +21,7 @@ font-family: serif;
 
 
 .mark{
-color: #F523F5;
+	color: #F523F5;
 	font-size: 700px;
 	font-family: sans-serif;
 	line-height: 0;
@@ -38,7 +32,6 @@ color: #F523F5;
 }
 
 .top {
-
 	display: flex;
 	flex-direction: rows;
 	position: absolute;
@@ -47,18 +40,14 @@ color: #F523F5;
 	color: black;
 	font-size: 1rem;
 	font-family: sans-serif;
-
 }
 
 @media screen and (min-width: 768px) {
 	p {
-
 		font-size: 2em;
 		color: black;
 		padding: 200px;
 		line-height: 70px
-	}
-
 	}
 }
 

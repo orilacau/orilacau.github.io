@@ -2,7 +2,6 @@ html {
 	background: lightpink;
 }
 
-
 p {
 	padding: 30px;
 	color: darkblue;
@@ -21,7 +20,5 @@ p:hover {
 	text-transform: uppercase;
 	font-weight: bold;
 	filter: none;
-
-
 }
 

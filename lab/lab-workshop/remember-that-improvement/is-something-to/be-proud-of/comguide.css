@@ -1,42 +1,38 @@
 html {
-
-background: lightyellow;
-margin: 30px;
-padding: 10px;
-
-
+	background: lightyellow;
+	margin: 30px;
+	padding: 10px;
 }
 
 .tittle {
-color: darkblue;
-background: lightblue;
-font-weight: normal;
-font-family: 'Bebas Neue', cursive;
-font-size: 45px;
-letter-spacing: 10px;
-top:0px;
+	color: darkblue;
+	background: lightblue;
+	font-weight: normal;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 45px;
+	letter-spacing: 10px;
+	top:0px;
 }
 
 
 .quote {
-background: orange;
-font-weight: normal;
-color: hotpink;
-font-family: 'Cantata One', serif;
-text-transform: capitalize;
-font-size: 20px;
-letter-spacing: 5px
+	background: orange;
+	font-weight: normal;
+	color: hotpink;
+	font-family: 'Cantata One', serif;
+	text-transform: capitalize;
+	font-size: 20px;
+	letter-spacing: 5px
 }
 
 .links {
-background: pink;
-font-weight: normal;
-color: hotpink;
-text-transform: capitalize;
-font-family: 'EB Garamond', serif;
-font-size: 15px;
-letter-spacing: 1px
-
+	background: pink;
+	font-weight: normal;
+	color: hotpink;
+	text-transform: capitalize;
+	font-family: 'EB Garamond', serif;
+	font-size: 15px;
+	letter-spacing: 1px
 }
 
 }

@@ -1,6 +1,7 @@
 html {
-background: none;
+	background: none;
 }
+
 body{
 	background: none;
 	padding:20px;
@@ -9,19 +10,13 @@ body{
 	padding: 100px;
 	padding-top: 20px;
 	align-content: center;
-
 }
 
-
-
-
 p {
-
-color: black;
-font-size: 18px;
-font-kerning: 5px;
-font-family: sans-serif;
-
+	color: black;
+	font-size: 18px;
+	font-kerning: 5px;
+	font-family: sans-serif;
 }
 
 .container {
@@ -29,9 +24,8 @@ font-family: sans-serif;
 	flex-direction: column;
 }
 
-
 .mark{
-color: #F523F5;
+	color: #F523F5;
 	font-size: 700px;
 	font-family: sans-serif;
 	line-height: 0;
@@ -41,9 +35,7 @@ color: #F523F5;
 	top: 0;	
 }
 
-
 .top {
-
 	display: flex;
 	flex-direction: rows;
 	position: absolute;
@@ -52,25 +44,20 @@ color: #F523F5;
 	color: black;
 	font-size: 1rem;
 	font-family: sans-serif;
-
 }
 
 @media screen and (min-width: 768px) {
 	p {
-
 		font-size: 32px;
 		color: black;
 		padding: 200px;
 		padding-top: 30px;
 		letter-spacing: 15px;
 	}
-
-	}
 }
 
 @media screen and (max-width: 1024px) {
 	p {
 		font-size: 4em;
-		
 	}
 }
