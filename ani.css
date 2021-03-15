@@ -1,0 +1,54 @@
+html, body {
+	background-color: pink;
+
+}
+
+h1 {
+	color: #331d06;
+	font-weight: bold;
+	font-size: 55px;
+	font-family: sans-serif; 
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+h2 {
+	font-weight: normal;
+	color: #331d06;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+p {
+	color: hotpink;
+	background: pink;
+}
+
+a {
+	background: lightpink;
+}
+
+a:hover {
+	background: darkblue;
+	color: lightpink;
+	font-weight: bold;
+}
+
+
+.butterfly {
+	resize: 80%;
+	position: absolute;
+	right: 500px;
+	top: 270px;
+	max-width: 90px;
+	max-height: 80px;
+}
+
+.butterfly2 {
+	
+	top: 30px;
+	right: 800px;
+	max-width: 50%;
+	max-height: 100%;
+}
