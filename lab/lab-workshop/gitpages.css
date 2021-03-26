@@ -1,0 +1,76 @@
+html, body {
+	background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+}
+
+h1 {
+	color: darkblue;
+	font-weight: bold;
+	font-size: 55px;
+	font-family: sans-serif; 
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+h2 {
+	font-weight: normal;
+	color: pink;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+h3 {
+	font-weight: normal;
+	font-family: sans-serif;
+	color: pink;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+h4 {
+	font-weight: normal;
+	color: pink;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+h5 {
+	font-weight: normal;
+	color: pink;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+h6 {
+	font-weight: normal;
+	color: pink;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+p {
+	color: hotpink;
+	background: pink;
+}
+
+li:hover {
+	background: darkblue;
+	color: lightpink;
+	font-weight: bold;
+}
+
+li, a {
+	color: hotpink;
+	background: pink;
+	text-decoration: none;
+}
+
+ul {
+	display: block;
+}
+
+
