@@ -53,6 +53,32 @@ color: darkblue;
 
 }
 
+h4 {
+position: absolute;
+top: -100px
+width: 1416px;
+height: 46px;
+
+
+font-family: sans-serif;
+text-transform: uppercase;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 56px;
+
+color: darkblue;
+
+
+}
+button {
+	position: absolute;
+	left: 650px;
+	top: 411px;
+	color: darkblue;
+	;
+}
+
 
 a {
 position: absolute;
