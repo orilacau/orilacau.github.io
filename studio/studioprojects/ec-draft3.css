@@ -36,8 +36,10 @@ color: darkblue;
 }
 
 button {
-	
+background: transparent;
+border-color: transparent;
 }
+
 
 a {
 position: absolute;
