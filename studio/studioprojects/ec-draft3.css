@@ -22,7 +22,7 @@ position: absolute;
 width: 1416px;
 height: 46px;
 left: 12px;
-top: 610px;
+top: -30px;
 
 font-family: sans-serif;
 text-transform: uppercase;
@@ -35,50 +35,9 @@ color: darkblue;
 
 }
 
-h3 {
-position: absolute;
-width: 1416px;
-height: 46px;
-
-
-font-family: sans-serif;
-text-transform: uppercase;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 56px;
-
-color: darkblue;
-
-
-}
-
-h4 {
-position: absolute;
-top: -100px
-width: 1416px;
-height: 46px;
-
-
-font-family: sans-serif;
-text-transform: uppercase;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 56px;
-
-color: darkblue;
-
-
-}
 button {
-	position: absolute;
-	left: 650px;
-	top: 411px;
-	color: darkblue;
-	;
+	
 }
-
 
 a {
 position: absolute;
@@ -96,11 +55,18 @@ line-height: 45px;
 color: darkblue;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
 
 
 
 
-cookie. {
+.cookie {
 position: absolute;
 width: 397px;
 height: 369px;
