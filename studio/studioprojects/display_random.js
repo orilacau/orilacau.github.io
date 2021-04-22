@@ -1,4 +1,39 @@
 
+var playBtn = document.getElementByClass('play');
+
+var playSound = function() {
+    audio.play();
+};
+
+playBtn.addEventListener('click', playSound, false);
+stopBtn.addEventListener('click', function(){audio.pause()}, false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function display_random_image() 
 {

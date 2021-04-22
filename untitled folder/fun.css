@@ -1,0 +1,11 @@
+#drop-zone {
+    position:absolute;
+    top: 210px;
+    width:245px;
+    height:188px;
+    border: 3px dashed #aaaaaa;
+    margin-top: 40px;
+}
+img:hover {
+    cursor:move;
+}
