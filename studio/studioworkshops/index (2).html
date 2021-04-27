@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Sentence Generator</title>
+
+
+	
+	
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+
+		body {
+			margin: 75px;
+			font-size: 50px;
+			background: lightblue;
+			font-family: sans-serif;
+		}
+
+
+		.button-container {
+			appearance:none;
+			font-size: 16px;
+			position: fixed;
+			bottom: 75px;
+			right: 75px;
+			border-radius: none;
+			padding: 14px 40px;
+			
+
+		
+
+		}
+
+		.list-one {
+			color: darkblue;
+			font-family: sans-serif;
+
+			
+
+		}
+
+		.list-two {
+			color: darkblue;
+			font-family: sans-serif;
+		}
+        
+        .list-three {
+			color: purple;
+			font-family: sans-serif;
+		}
+
+		h1 {
+			font-size: 100px;
+			font-family: sans-serif;
+		}
+
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content
+			var one = [
+				"elegant",
+				"fragile",
+				"puzzeled",
+				"zany",
+				"worried",
+				"established",
+				"silly",
+				"pink",
+				"pugnant",
+				"shinny",
+				"new",
+				"small",
+				"elastic",
+				"durable",
+				"colorful",
+			];
+
+			// list two content
+			var two = [
+				"menus",
+				"pianos",
+				"elevators",
+				"desks",
+				"insects",
+				"mothers",
+				"designers",
+				"therapists",
+				"clocks",
+				"rings",
+				"couples",
+				"members",
+				"books",
+				"strategies",
+				"ovens",
+			];
+            
+            // list three content
+			var three = [
+				" the countryside",
+				" the mountains",
+				"the train",
+				"the neighborhood",
+                "the room",
+				"the garden",
+				"the theater",
+				"the car",
+                "the lobby",
+				"the bathroom stall",
+				"church",
+                "the fire escape",
+				"narnia",
+				"the building"
+			];
+            
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+                var selected_three = select_random(three);
+
+				// Take the selected (random) item from list and make it visible
+				$('.list-one').html(selected_one);
+				$('.list-two').html(selected_two);
+                $('.list-three').html(selected_three);
+
+			}
+
+			$('button').click(function(){
+				generate();
+			});
+
+			generate();
+			
+		});
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
+
+</head>
+
+<body>
+
+	
+
+	<!--
+	This is the button.
+	-->
+	<div class="button-container">
+		<button> wow </button>
+	</div>
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, use...
+
+	<span></span>
+
+    if you want your words or phrases to stack vertically, use...
+
+    <div></div>
+
+	in the code below.
+	-->
+	Wow there are so many <span class="list-one"></span> <span class="list-two"></span> in <span class="list-three"></span> today!
+
+</body>
+
+</html>

@@ -1,6 +1,7 @@
 
 var playBtn = document.getElementByClass('play');
 
+
 var playSound = function() {
     audio.play();
 };
@@ -36,6 +37,7 @@ stopBtn.addEventListener('click', function(){audio.pause()}, false);
 
 
 function display_random_image() 
+//show a random photo naming variable below
 {
      var theImages = [{
         src: "fortunes/01.png",
@@ -455,29 +457,18 @@ function display_random_image()
 
 
    
-// create random image number
+
   function getRandomInt(min,max) 
     {
-      //  return Math.floor(Math.random() * (max - min + 1)) + min;
+      //  creating random number
     
 imn = Math.floor(Math.random() * (max - min + 1)) + min;
     return preBuffer[imn];
     }  
 
-// 0 is first image,   preBuffer.length - 1) is  last image
+// 0 is first photo  
   
 var newImage = getRandomInt(0, preBuffer.length - 1);
-
-//function positionRandom () {
-    //let var
-//}
  
-// remove the previous images
-//var images = document.getElementsByTagName('img');
-//var l = images.length;
-//for (var p = 0; p < l; p++) {
-   // images[0].parentNode.removeChild(images[0]);
-//}
-// display the image  
 document.body.appendChild(newImage);
 }
