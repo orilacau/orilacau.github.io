@@ -173,6 +173,14 @@ img {
     transform: translate(-50%);
   }
 
+  img {
+    width: 400px;
+    position: absolute;
+    top: 360px;
+    left: 190px;
+}
+  }
+
   h3 {
     font-size: 20px;
     display: block;
