@@ -165,10 +165,10 @@ img {
 
 @media screen and (max-width: 1024px) {
   img {
-    width: 400px;
+    width: 700px;
     position: absolute;
     top: 360px;
-    left: 190px;
+    left: 25px;
 }
 
 
