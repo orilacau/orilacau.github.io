@@ -1,3 +1,21 @@
+
+a {
+
+position: absolute;
+right: 55px;
+top: 30px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 80px;
+text-transform: uppercase;
+text-decoration: none;
+
+color: darkblue;
+}
+
 button:focus {
         outline: none;
     }
@@ -7,22 +25,31 @@ html, body {
 }
 
 img {
-	width: 400px; 
+	width: 400px;
+
+
 }
 
-h1 {
+#about {
 position: absolute;
-width: 319px;
-left: 32px;
-top: 100px;
+right: 55px;
+top: 85px;
 
 font-family: sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 48px;
+font-size: 20px;
 line-height: 80px;
+text-transform: uppercase;
+text-decoration: none;
 
 color: darkblue;
+}
+
+a:hover {
+  font-size: 25px;
+
+
 }
 
 h2 {
@@ -49,21 +76,7 @@ border-color: transparent;
 }
 
 
-a {
-position: absolute;
-width: 173px;
-height: 93px;
-left: 32px;
-top: 200px;
 
-font-family: sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 45px;
-
-color: darkblue;
-}
 
 .center {
   display: block;

@@ -1,37 +1,21 @@
+$(document).ready(function(){
+    $("#play-bt,#play").click(function() {
+        src = 'http://orilacau.github.io/Crunch.mp3';
+        
+        $("#audio-player").attr("src",src)[0].play() ;
+      
 
-var playBtn = document.getElementByClass('play');
+    });
 
+ 
 
-var playSound = function() {
-    audio.play();
-};
-
-playBtn.addEventListener('click', playSound, false);
-stopBtn.addEventListener('click', function(){audio.pause()}, false);
-
-
-
-
+});
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function play(){
+    $("#audio-player")[0].play();
+    $("#message").text("Music started");
+}
 
 
 
@@ -296,7 +280,7 @@ function display_random_image()
         width: "382",
         height: "92.5"
     }, {
-        src: "fortunes/ 64.png",
+        src: "fortunes/64.png",
         width: "382",
         height: "92.5"
     }, {
@@ -453,6 +437,7 @@ function display_random_image()
         preBuffer[i].width = theImages[i].width;
         preBuffer[i].height = theImages[i].height;
     }
+
 
 
 
