@@ -92,14 +92,6 @@ border-color: transparent;
 
 }
 
-
-
-
-
-
-
-
-
 .cookie {
 position: absolute;
 width: 397px;
@@ -107,4 +99,34 @@ height: 369px;
 left: 550px;
 top: 211px;
 }
+@media screen and (max-width: 1024px) {
+  img {
+    width: 95%;
+  }
+
+a {
+  position: absolute;
+  top: -25px;
+  left: 10px;
+}
+
+.center {
+  width: 60%;
+}
+
+#about {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+
+}
+
+
+
+
+
+
+
+
+  }
 
