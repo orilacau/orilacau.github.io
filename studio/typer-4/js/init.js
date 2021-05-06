@@ -53,10 +53,11 @@ function createElement(k) {
   if (k == "u" || k == "U") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/SIX_E17771DB-B040-4BDB-A4F5-C47AA436EB20.PNG"></span>'); }
   if (k == "v" || k == "V") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/SIX_F2B68D55-168D-482E-8785-7F9BA11A86D2.PNG"></span>'); }
   if (k == "w" || k == "W") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/You_Doodle+_2021-05-04T23_43_17Z.PNG"></span>'); }
-  if (k == "x" || k == "X") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/You_Doodle+_2021-05-04T23_46_13Z.PNG"></span>'); }
-  if (k == "y" || k == "Y") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/You_Doodle+_2021-05-04T23_50_53Z.PNG"></span>'); }
-  if (k == "z" || k == "Z") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/SIX_CE3D9806-FA29-4899-A73A-BA02495AC339.PNG"></span>'); }
-  if (k == " ") { elem.before('<span class="inner"><img src="https://"></span>') };
+  if (k == "x" || k == "X") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/SIX_DBE49D56-DCD6-4133-BA9C-F51BE6527A62.PNG"></span>'); }
+  if (k == "y" || k == "Y") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/SIX_3F3F24FF-8F01-49E1-B7AC-A19F178547B4.PNG"></span>'); }
+  if (k == "z" || k == "Z") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/You_Doodle+_2021-05-06T01_12_26Z.PNG"></span>'); }
+  if (k == " ") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/Screen Shot 2021-05-05 at 7.51.19 PM.png"></span>') };
+
 }
 
 function deleteElement() {

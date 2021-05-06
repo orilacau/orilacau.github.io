@@ -4,13 +4,36 @@ body {
   font-family: sans-serif;
   font-size: 72px;
   line-height: 1em;
-    background-color: black; /* For browsers that do not support gradients */
+    background-color: black; 
     height: 100vh;
     width: 100vh;
 }
 
+a {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    width: 300px;
+    left: 50%;
+    top: 20px;
+    position: absolute;
+    transform: translate(-50%);
+    text-decoration: none;
+    font-weight: bold;
+}
+}
+
+
+
+
+
 #cursor {
   animation: blinker 1s step-end infinite; 
+  color: white;
+  font-size: 140px;
+}
 /*
   you can change 'step-end' to 'linear' for smooth transition
 */
@@ -22,32 +45,193 @@ body {
 #container {
   /*background-color: #efefef;*/
   width: 100vw;
-  padding: 0px;
+  padding-left: 30px;
+  padding-right: -20px;
   margin: 50px auto;
   word-wrap: break-word;
-  text-align:center;
+  text-align: center;
+
 }
+
+
 .inner {
   /*display:block;*/
   padding-right: -20px;
    
 }
 
-h1 {
+h1 { 
+  font-family: sans-serif;
+  font-size: 50px;
+  color: black;
+  text-transform: uppercase;
 
+}
+
+
+h2 { 
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+   display: block;
+  width: 300px;
+  left: 51.5%;
+  top: 60px;
+  position: absolute;
+  transform: translate(-50%);
+  
+}
+
+
+
+h3 { 
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+   display: block;
+  width: 300px;
+  left: 56.5%;
+  top: 60px;
+  position: absolute;
+  transform: translate(-50%);
+  
+}
+
+a:hover {
+  color: #dce67f;
+}
+
+
+p {
+  color: black;
+  font-size: 0.5px;
+
+}
+
+#tittle { 
   font-family: sans-serif;
   font-size: 50px;
   color: white;
   text-transform: uppercase;
+   display: block;
+  width: 300px;
+  left: 50%;
+  top: -10px;
+  position: absolute;
+  transform: translate(-50%);
 }
 
+h5 {
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  display: block;
+  top: 95px;
+  margin: 80px;
+  line-height: 25px;
+  position: absolute;
+
+
+}
+
+
+
+
 img {
-     width: 100px;
-    animation-name: example;
+  padding: -20px;
+  width: 100px;
+  animation-name: example;
   animation-duration: 4s;
   animation-delay: 2s;
   padding-right: -20px;
 }
+
+@media screen and (min-width: 768px) {
+  a {
+    font-size: 50px;
+  }
+
+  h3 {
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  a {
+    font-size: 50px;
+    display: block;
+    width: 300px;
+    left: 100%;
+    top: 20px;
+    position: absolute;
+    transform: translate(-50%);
+  }
+
+  h3 {
+    font-size: 20px;
+    display: block;
+    width: 300px;
+    left: 125%;
+    top: 60px;
+    position: absolute;
+    transform: translate(-50%);
+  }
+
+
+  h2 {
+    font-size: 20px;
+    display: block;
+    width: 300px;
+    left: 105.5%;
+    top: 60px;
+    position: absolute;
+    transform: translate(-50%);
+  }
+
+  p {
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  display: block;
+  width: 390px;
+  left: 110%;
+  top: 95px;
+  position: absolute;
+  transform: translate(-50%);
+
+}
+
+h5 {
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  display: block;
+  width: 390px;
+  left: 87%;
+  top: 95px;
+  position: absolute;
+  transform: translate(-50%);
+
+}
+ 
+ body{
+   font-family: sans-serif;
+  font-size: 72px;
+  line-height: 1em;
+    background-color: black; /* For browsers that do not support gradients */
+    
+ }
+
+
+
+  
+
+
 
 
 @keyframes example {
