@@ -70,7 +70,7 @@ color: darkblue;
   width: 300px;
   left: 50%;
   top: 30%;
-  position: absolute;
+  position: fixed;
   transform: translate(-50%);
 }
 
