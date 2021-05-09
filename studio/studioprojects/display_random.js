@@ -1,32 +1,14 @@
-$(document).ready(function(){
-    $("#play-bt,#play").click(function() {
-        src = 'http://orilacau.github.io/Crunch.mp3';
-        
-        $("#audio-player").attr("src",src)[0].play() ;
-      
-
-    });
-
- 
-
-});
-
-
-function play(){
-    $("#audio-player")[0].play();
-    $("#message").text("Music started");
-}
-
-
-
-
 function display_random_image() 
 //show a random photo naming variable below
 {
      var theImages = [{
+        //creating a variable named theImages
         src: "fortunes/01.png",
+        //telling it where to look for it, and grabing the image assigned
         width: "382",
+        //assigning width
         height: "92.5"
+        //assigning height
 
     }, {
         src: "fortunes/02.png",
@@ -431,7 +413,9 @@ function display_random_image()
     }];
     
     var preBuffer = [];
+    //creating new variable named preBuffer
     for (var i = 0, j = theImages.length; i < j; i++) {
+        
         preBuffer[i] = new Image();
         preBuffer[i].src = theImages[i].src;
         preBuffer[i].width = theImages[i].width;
@@ -445,13 +429,13 @@ function display_random_image()
 
   function getRandomInt(min,max) 
     {
-      //  creating random number
+    //creating random number
     
 imn = Math.floor(Math.random() * (max - min + 1)) + min;
     return preBuffer[imn];
     }  
 
-// 0 is first photo  
+    //making 0 the first photo  
   
 var newImage = getRandomInt(0, preBuffer.length - 1);
  

@@ -1,0 +1,419 @@
+html, body {
+	background-color: black;
+}
+
+
+.adentro, .adentro .emotions {
+	transition: all 0.5s ease-in-out;
+}
+
+.reveal {
+	color: #0020e4;
+
+}
+
+.reveal .emotions {
+	color: yellow;
+	filter: blur(1.5px);
+}
+
+/* brain */
+
+.shift, .shift .move {
+	transition: all 0.5s ease-in-out;
+}
+
+.edit {
+	color: #0020e4;
+
+}
+
+.edit .move {
+	display: none;
+}
+
+/* thoughts */
+
+.music, .music .playl {
+	transition: all 0.5s ease-in-out;
+}
+
+.cancion {
+	color: #0020e4;
+
+}
+
+.cancion .playl {
+	font-style: italic;
+	color: white;
+}
+/* song */
+
+
+
+
+.peace, .peace .calm {
+	transition: all 0.5s ease-in-out;
+}
+
+.water {
+	color: #0020e4;
+
+}
+
+.water .calm {
+	background: yellow;
+	color: red;
+}
+/* happy */
+
+
+
+.fabi, .fabi .ori {
+	transition: all 0.5s ease-in-out;
+}
+
+.nico {
+	color: #0020e4;
+
+}
+
+.nico .ori {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: pink;
+}
+/* people */
+
+
+
+
+.ring, .ring .hat {
+	transition: all 0.5s ease-in-out;
+}
+
+.jean {
+	color: #0020e4;
+
+}
+
+.jean .hat {
+	font-size: 100px;
+	color: yellow;
+}
+/* things */
+
+
+
+.joy, .joy .sad {
+	transition: all 0.5s ease-in-out;
+}
+
+.anger {
+	color: #0020e4;
+
+}
+
+.anger .sad {
+	font-weight: bold;
+	color: hotpink;
+}
+/* emotions */
+
+
+
+
+.bad, .bad .brain {
+	transition: all 0.5s ease-in-out;
+}
+
+.here {
+	color: #0020e4;
+
+}
+
+.here .brain {
+	text-transform: uppercase;
+	border: solid;
+	border-color: yellow;
+}
+/* worries */
+
+
+.ven, .ven .car {
+	transition: all 0.5s ease-in-out;
+}
+
+.cloud {
+	color: #0020e4;
+
+}
+
+.cloud .car {
+	letter-spacing: 10px;
+	color: white;
+	font-style: italic;
+}
+/* memories */
+
+
+
+.man, .man .this {
+	transition: all 0.5s ease-in-out;
+}
+
+.list {
+	color: #0020e4;
+
+}
+
+.list .this {
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: pink;
+}
+/* advice */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.inside {
+	font-size: 30px;
+
+}
+
+
+.text {
+	transform: rotate(-15deg);
+	top: 70px;
+	position: relative;
+	top: 150px;
+	left: 70px;
+}
+
+.text:hover {
+	transform: rotate(-7deg);
+}
+
+.adentro, .shift {
+	font-size: 30px;
+}
+
+a {
+	font-size: 25px;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style:  italic;
+}
+
+a:visited {
+	text-decoration: none; color: #0020e4;
+}
+
+.adentro, .shift:hover {
+	font-size: 31px;
+}
+
+
+h1 {
+	color: yellow;
+	font-size: 55px;
+	font-family: serif;
+	letter-spacing: -0px;
+	font-style: italic;
+	letter-spacing: 1px;
+	
+}
+h2 {
+	color: yellow;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -0px;
+	
+	
+}
+
+
+h3
+{
+	padding-left: 20px;
+	color: yellow;
+	font-size: 20px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -0px;
+	align-items: center;
+	
+}
+
+img {
+	width: 100%;
+
+}
+
+p {
+	color: #0020e4;
+	size: 70px;
+}
+
+#emotions {
+	border-style: solid;
+	border-color: yellow;
+	border-width: 5px;
+}
+
+
+#thoughts {
+	border-style: solid;
+	border-color: yellow;
+	border-width: 5px;
+	width: 60%;
+}
+
+ 
+#songs {
+
+	border-style: solid;
+	border-color: yellow;
+	border-width: 5px;
+	width: 60%;
+}
+
+#happy {
+	border-style: solid;
+	border-color: yellow;
+	border-width: 5px;
+	width: 60%;
+
+}
+
+#people {
+	border-style: solid;
+	border-color: yellow;
+	border-width: 5px;
+	width: 60%;
+}
+
+#things {
+	border-style: solid;
+	border-color: yellow;
+	border-width: 5px;
+	width: 50%;
+
+}
+
+#worries {
+	border-style: solid;
+	border-color: yellow;
+	border-width: 5px;
+	width: 60%;
+}
+
+#memories {
+	border-style: solid;
+	border-color: yellow;
+	border-width: 5px;
+	width: 60%;
+}
+
+#advice {
+	border-style: solid;
+	border-color: yellow;
+	border-width: 5px;
+	flex-shrink: 2;
+
+}
+
+@media screen and (max-width: 1024px) {
+ 	h1 {
+ 		font-size: 40px;
+ 	}
+
+ 	h2 {
+ 		font-size: 14.5px;
+
+ 	}
+
+ 	h3 {
+ 		font-size: 14.5px;
+ 	}
+
+ 	a {
+ 		font-size: 18px;
+ 	}
+
+
+ 	p {
+ 		font-size: 21.8px;
+
+ 	}
+
+ 	p:hover {
+		font-size: 21.6px;
+ 	}
+
+ 	.text{
+ 		position: relative;
+ 		top: -12px;
+ 		left: 10px;
+ 		transform: rotate(-10deg);
+ 	}
+
+ 	.text:hover {
+ 		transform: rotate(-4deg);
+
+ 	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
