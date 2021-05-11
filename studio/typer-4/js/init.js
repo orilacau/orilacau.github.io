@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 function createElement(k) {
   var elem = $('#cursor');
-  if (k == "a" || k == "A") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/SIX_065D0F28-B4B4-4A63-9E27-6827891ADF67.PNG"></span>'); }
+  if (k == "a" || k == "A") { elem.before('<span class="inner"><img src="https://github.com/orilacau/orilacau.github.io/blob/39babe9281efe57235a9566f29e5c2a818e0ed43/studio/typer-4/imagesproject4/SIX_065D0F28-B4B4-4A63-9E27-6827891ADF67.PNG"></span>'); }
   if (k == "b" || k == "B") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/SIX_0F300807-2E76-4E28-9AAC-88C5C064A422.PNG"></span>'); }
   if (k == "c" || k == "C") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/SIX_1785D94F-B361-4408-9C22-B329C20D1BF0.PNG"></span>'); }
   if (k == "d" || k == "D") { elem.before('<span class="inner"><img src="https://orilacau.github.io/imagesproject4/SIX_185E9318-6A70-4BF0-805D-2E55214584D0.PNG"></span>'); }
