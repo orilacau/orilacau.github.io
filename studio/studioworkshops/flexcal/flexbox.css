@@ -1,0 +1,40 @@
+html{
+    background: #b7b1f9;
+}
+
+h1 {
+    color: #f6fd7b;
+    font-family: serif;
+    background-color: #0633ef;
+    padding:0;
+    margin-bottom:5px;
+    text-align: center;
+}
+
+
+
+.container {
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+.day {
+    background-color: #1125f9;
+    font-family: serif;
+    width:150px;
+    height:150px;
+    margin-bottom:5px;
+    font-weight: bold;
+    color: #f6fd7b;
+}
+   
+p {
+    color: #f6fd7b;
+    font-family: serif;
+    padding:10px;
+}
+

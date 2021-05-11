@@ -22,10 +22,7 @@ h6 {
 	left:690px;
 }
 
-a {
-	text-decoration: none;
-	color: #707070;
-}
+
 
 .container {
 	padding: 20px;
@@ -38,48 +35,69 @@ a {
 	text-decoration: none;
 	font-size: 300px;
 }
+a {
+	text-decoration: none;
+	color: #707070;
+}
 
 a:hover {
 	color: #F523F5;
 }
 
-.tittle {
-	font-weight: normal;
-	color: #F523F5;
-	position: absolute;
-	top: 620px;
-	left:570px;
-	font-family: sans-serif;
-	font-size: 40px;
-	text-decoration: none; 
-}
 
-@media screen and (min-width: 375px) {
-	 {
-	padding: 20px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	color: #707070;
-	font-family: sans-serif;	
-	text-decoration: none;
-	font-size: 100px;
-	}
-}
+.tittle {
+    font-weight: normal;
+    color: #F523F5;
+    position: absolute;
+    top: 690px;
+    left: 630px;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+} 
+
+
 
 @media screen and (max-width: 1024px) {
-	 {
-	padding: 20px;
+
+.container {
+
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	color: #707070;
-	font-family: sans-serif;	
-	text-decoration: none;
-	font-size: 300px;	
-	}
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #707070;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 100px;
+}
+
+h5 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+h6 {
+position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+
+.tittle {
+    font-weight: normal;
+    color: #F523F5;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+
 }
 
 

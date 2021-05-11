@@ -21,7 +21,7 @@ p {
 	flex-direction: column;
 }
 
-.mark{
+.mark {
 	color: #F523F5;
 	font-size: 700px;
 	font-family: sans-serif;
@@ -29,19 +29,28 @@ p {
 	z-index:-1;
 	position: fixed;
 	left: 512px;
-	top: 0;	
+	top: 0px;	
 }
 
-.top {
 
-	display: flex;
-	flex-direction: rows;
-	position: absolute;
-	top-position: 10px;
-	text-transform: uppercase;
-	color: black;
-	font-size: 1rem;
-	font-family: sans-serif;
+
+.top, a {
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    /* font-size: 1rem; */
+    font-family: sans-serif;
+}
+
+}
+
+
+.top, a:hover {
+	color: color: #F523F5;
 }
 
 @media screen and (min-width: 768px) {
@@ -67,4 +76,36 @@ p {
 		font-size: 4em;
 		
 	}
+
+	.mark {
+    color: #F523F5;
+    font-size: 700px;
+    font-family: sans-serif;
+    line-height: 0;
+    z-index: -1;
+    position: fixed;
+    /* left: 512px; */
+    top: 0px;
 }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+body {
+	background-color: black;
+}
+
+img {
+	position: relative;
+	float: center;
+	width: auto;
+	height: 300px;
+}
+
+h1{
+	width: 50%;
+	text-align: center;
+	margin:35px auto;
+	padding:14px;
+	color:#282828;
+	background:white;
+	font-family: helvetica;
+	font-size: 20px;
+	
+}
+
+select{
+	font-size:15px;
+	margin-bottom: 20px;
+	font-family: helvetica;
+}
